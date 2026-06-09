@@ -1,0 +1,156 @@
+<!-- 
+ Mason Dalton
+ IS 201
+ June 9th
+ -->
+
+<!DOCTYPE html>
+<!-- Remember the order HTML as the parent, the Head and Body as the children. Within head we use title as a child to the head 
+ element. Body stores all we see on the page. Head stores detals/metadata about the page -->
+<html>
+    <head>
+        <!-- Title shows up in the browser tab at the top-->
+        <title>Avatar the Last Airbender Wiki</title>
+        <link rel="stylesheet" href="css/avatar.css">
+    </head>
+
+    <body>
+        <div id="top" class="site-header">
+        <!--  Top of the website, g'morning     -->
+        <h1>Aang Lives Again</h1>
+        <h3>(maybe)</h3>
+
+        <h4>Menu</h4>
+        <!-- Here we use anchors <a> tags. we use on page references with #. Any time we link here we use href.
+            The value we do like "#chracters" matches the id further down-->
+        <p>
+            <a href="#characters">Characters</a> |
+            <a href="#nations">Nations</a> |
+            <a href="#bottom">Bottom</a> |
+            <a href="atla_tableau.html">Tableau Visualization</a>
+        </p>
+        </div>
+
+        <div class="page-content">
+            <div class="content-div intro">
+                 <p style="font-family: cursive; font-size: 34px">
+                After one hundred years in the iceberg, Aang returns to a world at war and has to master
+                    water, earth, and fire before facing the Fire Lord.
+                </p>
+
+                <!-- paragraph tag adds spacing before and after, the break tag doesn't - so you can use a br tag
+                inside other elements - just moving to another line-->
+                <p>  Team Avatar travels across the four nations with Appa, Momo, and plenty of questionable
+                    plans. They learn bending, dodge Fire Nation soldiers, and somehow still make time for
+                    cactus juice-level side quests.<br>This second line appears because of the br tag.
+                </p>
+            </div>
+
+        <div class="content-div image-demo">
+            <h2>Background Image Example</h2>
+            <p>This has an image as the background</p>
+
+            <div class="image-repeat">
+                repeated image
+            </div>
+
+        </div>
+
+        <h2>Box Model (wink)</h2>
+        <p class="box-example">
+            Aang's glider has content, padding, border, and margin. Like this box
+        </p>
+
+        <!-- Inline vs Block-->
+         <div class="content-div display-demo">
+            <h2>Inline vs Block Example</h2>
+            <p class="block-example">This is a block paragrah</p>
+            <span class="inline-example">This is an inline element</span>
+            <span class="inline-example">Wow, you're too close pal</span>
+
+         </div>
+
+         <div class="content-div size-example">
+            <!-- Here we messed with a rectangle for fun-->
+
+         </div>
+
+         <div class="content-div position-example">
+            <div class="absolute-box">absoulte</div>
+            <div class="relative-box">relative</div>
+            <div class="z-box back">z-index = 1</div>
+            <div class="z-box front">z-index = 2</div>
+         </div>
+
+        <br>
+        <br>
+        <br>
+        <p style="color: firebrick; font-weight: bold; text-align:center; font-size: 150%">I'm down here bro</p>
+        <h3>Suprise!</h3>
+
+        <!-- Here are examples of lists -->
+         <h3 id="nations">The 4 Nations</h3>
+         <ol>
+            <li>Fire Nation</li>
+            <li>Water Tribe</li>
+            <li>Earth Kingdom</li>
+            <li>Air Nomads</li>
+         </ol>
+
+         <h3 id="characters">Favorite Characters</h3>
+         <ul>
+            <li>Bumi</li>
+            <li>Toph</li>
+            <li><strong>Momo</strong></li>
+            <li><em>Iroh</em></li>
+            <li><a href="html/cab_patch.html"><strong>Cabbage Guy</a></strong></li>
+         </ul>
+
+         <h3>Other Characters:</h3>
+            <ul>
+                <li><a href="katara.html">Katara</a></li>
+            </ul>
+
+
+        <!-- Now here is where we are going to practice linking -->
+         <p>
+            Visit <a href="https://validator.w3.org">WSC HTML Validor</a> to double check this code.
+         </p>
+
+         <br>
+         <br>
+         <span>Watch out for flying space Debris</span>
+         <br>
+         <span>We're going on a trip in my favorite rocketship - the BFR, from Space X</span>
+         <p><a href="#top">Back to the top of the page</a></p>
+         <p>thanks for stopping by</p>
+
+
+        <!-- Tables are a useful structure in HTML but you don't need to know how to code them. I provide 
+         this one as an example the elements are table - tr=table row - th=table header - td=table data -->
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>phone number</th>
+            </tr>
+            <tr>
+                <td>Aang</td>
+                <td>911</td>
+            </tr>
+            <tr>
+                <td>King Bumi</td>
+                <td>67 67 67</td>
+            </tr>
+        </table>
+
+        <div class="fixed-note">
+            <h3>Fixed</h3>
+        </div>
+
+    </body>
+</div>
+    <footer>
+        <!-- This is the bottom -->
+        <h6 id="bottom">Copyright © 2026 Mason Dalton</h6>
+    </footer>
+</html>
